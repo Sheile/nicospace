@@ -39,3 +39,5 @@ gem 'jquery-rails'
 
 # Use V8 javascript runtime
 gem 'therubyracer'
+
+gem 'nokogiri'
