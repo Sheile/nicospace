@@ -41,3 +41,4 @@ gem 'jquery-rails'
 gem 'therubyracer'
 
 gem 'nokogiri'
+gem 'haml'
