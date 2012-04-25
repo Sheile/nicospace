@@ -1,0 +1,37 @@
+# アメリカ
+Shuttle Discovery,NASA
+Shuttle Endeavour,NASA
+Shuttle Atlantis,NASA
+Atlas 5,ULA社(米国系)
+Delta 2,ULA社(米国系)
+Delta 4,ULA社(米国系)
+Delta 4-Heavy,ULA社(米国系)
+Falcon 9,スペースX社(米国系)
+Proton,ILS社(米国系)
+Minotaur 1,オービタル・サイエンシズ社(米国系)
+Minotaur 4,オービタル・サイエンシズ社(米国系)
+Taurus,オービタル・サイエンシズ社(米国系)
+Zenit 3F,シーローンチ社(米国系)
+
+# ロシア
+Soyuz,ロシア宇宙局
+Rockot,ロシア宇宙局
+Dnepr,ISCコスモトラス社(露系)
+
+# 欧州
+Ariane 5,アリアンスペース社(欧州系)
+
+# 日本
+H-2A,JAXA
+H-2B,JAXA
+
+# 中国
+Long March 3A,中国国家航天局
+Long March 3B,中国国家航天局
+
+# 韓国
+KSLV 1,韓国航空宇宙研究院
+
+# その他
+GSLV,インド宇宙研究機関
+PSLV,インド宇宙研究機関

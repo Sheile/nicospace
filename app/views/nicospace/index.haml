@@ -1,0 +1,46 @@
+%html
+  %head
+    %title
+      宇宙開発イベントスケジュール
+    %meta{ "http-equiv" => 'Content-Type', :content => 'text/html; charset=UTF-8' }
+    %link{ :type => 'text/css', :href => 'stylesheets/smoothness/jquery-ui-1.8.custom.css', :rel => 'stylesheet' }
+    %script{ :type => 'text/javascript', :src => 'javascripts/jquery-1.4.2.min.js' }
+    %script{ :type => 'text/javascript', :src => 'javascripts/jquery-ui-1.8.custom.min.js' }
+    %script{ :type => 'text/javascript', :src => 'javascripts/jquery.layout.min-1.2.0.js' }
+    %style
+      :sass
+        div.ui-layout-west
+          :overflow hidden !important
+        textarea#html
+          :width 100%
+          :height 50% 
+        div.list
+          :border solid 1px black
+          :margin-top 16px
+        div.author
+          :margin-top 16px
+
+  %body
+    .ui-layout-center
+      %div
+        %h2
+          ロケット・スペースシャトルなどの打ち上げ予定を日本語に翻訳して掲載しています。
+        %p
+          自動変換の為、時間・機体などの誤変換が発生する可能性があります。
+          %br
+          正確な情報は元サイトの情報を参照してください。
+        %br
+        変換元サイト：
+        %br
+        %a{:href=>'http://spaceflightnow.com/tracking/index.html'}
+          SpaceFlight Now (外部サイト)
+        %br
+        %a{:href=>'http://www.nasa.gov/directorates/somd/reports/iss_reports/index.html'}
+          NASA Current ISS On-Orbit Status Report (外部サイト)
+        %br
+        %div.author
+          Convert Program by: 
+          %a{ :href=>'http://www.twitter.com/Sheile' }
+            @Sheile
+      %div.list
+        = raw @text

@@ -1,0 +1,43 @@
+%html
+  %head
+    %title
+      ニコニコ動画宇宙コミュ用コンバータ
+    %link{ :type => 'text/css', :href => 'stylesheets/smoothness/jquery-ui-1.8.custom.css', :rel => 'stylesheet' }
+    %script{ :type => 'text/javascript', :src => 'javascripts/jquery-1.4.2.min.js' }
+    %script{ :type => 'text/javascript', :src => 'javascripts/jquery-ui-1.8.custom.min.js' }
+    %script{ :type => 'text/javascript', :src => 'javascripts/jquery.layout.min-1.2.0.js' }
+    %style
+      :sass
+        div.ui-layout-west
+          :overflow hidden !important
+        textarea#html
+          :width 100%
+          :height 50% 
+
+    :javascript
+      var layout;
+      $(function() {
+        layout = $("body").layout({
+          applyDefaultStyles: true
+        });
+        layout.sizePane("west", 450);
+      });
+
+      function showSpaceFlightNow()
+      {
+        $("iframe#referenceFrame")[0].src = 'http://spaceflightnow.com/tracking/index.html';
+      }
+
+      function showISSStatusReport()
+      {
+        $("iframe#referenceFrame")[0].src = 'http://www.nasa.gov/directorates/somd/reports/iss_reports/index.html';
+      }
+  %body
+    .ui-layout-west
+      %input{:type => "button", :value => "Space Flight Now", :onclick => "showSpaceFlightNow()"}
+      %input{:type => "button", :value => "ISS Status Report", :onclick => "showISSStatusReport()"}
+      %iframe{:id => "referenceFrame", :src => "http://spaceflightnow.com/tracking/index.html", :width => '100%', :height => '100%'}
+    .ui-layout-center
+      ~ text_area_tag(:html, @text, :wrap=>'off')
+      %div
+        = @text

@@ -1,0 +1,20 @@
+Soyuz (.*)/\d+S undock/landing,ソユーズ\1宇宙船が国際宇宙ステーションから分離/地球へ帰還
+Soyuz (.*)/\d+S undock,ソユーズ\1宇宙船が国際宇宙ステーションから分離
+Soyuz (.*)/\d+S docking,ソユーズ\1宇宙船が国際宇宙ステーションへドッキング
+Soyuz (.*)/\d+S relocation.*,ソユーズ\1宇宙船のドッキングポート変更
+Soyuz (.*)/\d+S deorbit.*,ソユーズ\1宇宙船が軌道を離脱
+Progress .*/(\d+P) undock/landing,プログレス補給船 \1が国際宇宙ステーションから分離/地球へ帰還
+Progress .*/(\d+P) undock,プログレス補給船 \1が国際宇宙ステーションから分離
+Progress .*/(\d+P) docking,プログレス補給船 \1が国際宇宙ステーションへドッキング
+Progress .*/(\d+P) relocation.*,プログレス補給船 \1のドッキングポート変更
+Progress .*/(\d+P) deorbit.*,プログレス補給船 \1が軌道を離脱
+STS\-\d+/Discovery docking.*,<font color="#de0010">スペースシャトルディスカバリー号が国際宇宙ステーションへドッキング</font>
+STS\-\d+/Discovery undock.*,<font color="#de0010">スペースシャトルディスカバリー号が国際宇宙ステーションから分離</font>
+STS\-\d+/Endeavour docking.*,<font color="#de0010">スペースシャトルエンデバー号が国際宇宙ステーションへドッキング</font>
+STS\-\d+/Endeavour undock.*,<font color="#de0010">スペースシャトルエンデバー号が国際宇宙ステーションから分離</font>
+HTV\-\d+ docking.*,<font color="#de0010">HTV補給船が国際宇宙ステーションへドッキング</font>
+HTV\-\d+ undock.*,<font color="#de0010">HTV補給船が国際宇宙ステーションから分離</font>
+ATV\-\d+ docking.*,ATV補給船が国際宇宙ステーションへドッキング</font>
+ATV\-\d+ undock.*,ATV補給船が国際宇宙ステーションから分離</font>
+US EVA\-\d+.*,国際宇宙ステーションで船外活動(アメリカ)
+Russian EVA\-\d+.*,国際宇宙ステーションで船外活動(ロシア)

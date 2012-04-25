@@ -1,0 +1,39 @@
+# Vehicle
+Shuttle Discovery,スペースシャトル ディスカバリー号
+Shuttle Endeavour,スペースシャトル エンデバー号
+Shuttle Atlantis,スペースシャトル アトランティス号
+Atlas 5,アトラス5ロケット
+Delta 2,デルタ2ロケット
+Delta 4,デルタ4ロケット
+Delta 4-Heavy,デルタ4 ヘビーロケット
+Falcon 9,ファルコン9ロケット
+Proton,プロトンロケット
+Soyuz,ソユーズロケット
+Rockot,ロコットロケット
+Ariane 5,アリアン5ロケット
+Minotaur 1,ミノタウロス1ロケット
+Minotaur 4,ミノタウロス4ロケット
+Zenit 3F,ゼニット3Fロケット
+Zenit,ゼニットロケット
+Long March 2C,長征2Cロケット
+Long March 2D,長征2Dロケット
+Long March 2F,長征2Fロケット
+Long March 3A,長征3Aロケット
+Long March 3B,長征3Bロケット
+Long March 3C,長征3Cロケット
+Long March 4B,長征4Bロケット
+Long March 4C,長征4Cロケット
+Dnepr,ドニエプルロケット
+Taurus,トーラスロケット
+GSLV,GSLVロケット
+PSLV,PSLVロケット
+H-2A,H-2Aロケット
+H-2B,H-2Bロケット
+KSLV 1,KSLV1ロケット
+
+# Payload
+Dragon,ドラゴン宇宙船
+Progress,プログレス補給船
+Akatsuki,あかつき
+Michibiki,みちびき
+Chang'e,嫦娥

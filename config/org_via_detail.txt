@@ -1,0 +1,8 @@
+Russian government,ロシア宇宙局
+SpaceX,スペースX社(米国系)
+Arianespace,アリアンスペース社(欧州系)
+United Launch Alliance,ULA社(米国系)
+Eurockot,ユーロコット社(欧＋露系)
+International Launch Services,ILS社(米国系)
+ISC Kosmotras,ISCコスモトラス社(露系)
+The Air Force,アメリカ空軍
