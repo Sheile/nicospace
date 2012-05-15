@@ -42,3 +42,9 @@ gem 'therubyracer'
 
 gem 'nokogiri'
 gem 'haml'
+
+group :development, :test do
+  gem 'pry-rails'
+  gem 'pry-doc'
+end
+
