@@ -6,6 +6,7 @@ Soyuz (.*)/\d+S deorbit.*,ソユーズ\1宇宙船が軌道を離脱
 Progress .*/(\d+P) undock/landing,プログレス補給船 \1が国際宇宙ステーションから分離/地球へ帰還
 Progress .*/(\d+P) undock,プログレス補給船 \1が国際宇宙ステーションから分離
 Progress .*/(\d+P) docking,プログレス補給船 \1が国際宇宙ステーションへドッキング
+Progress .*/(\d+P) re-docking,プログレス補給船 \1が国際宇宙ステーションへ再度ドッキング
 Progress .*/(\d+P) relocation.*,プログレス補給船 \1のドッキングポート変更
 Progress .*/(\d+P) deorbit.*,プログレス補給船 \1が軌道を離脱
 STS\-\d+/Discovery docking.*,<font color="#de0010">スペースシャトルディスカバリー号が国際宇宙ステーションへドッキング</font>
