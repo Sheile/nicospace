@@ -4,11 +4,13 @@
 module Dictionary
 module_function
   def t original
-    @@dictionary ||= load_csv_to_hash "#{Rails.root}/config/dictionary.txt"
+    @@dictionary ||= load_csv_to_array "#{Rails.root}/config/dictionary.txt"
     return @@dictionary[original] if @@dictionary.include? original
-    key = @@dictionary.keys.find do |key| original.include? key end
-    return original.gsub(key, @@dictionary[key]) unless key.nil?
-    return nil
+
+    @@dictionary.each do |key, value|
+      original = original.gsub(Regexp.new(key.gsub(" ", "\s?")), value)
+    end
+    return original
   end
 
   def load_csv_to_array csv_path
@@ -19,7 +21,8 @@ module_function
 
       array << row.split(",")
     end
-    array
+    # キー長でソート
+    array.sort! {|a, b| b[0].size <=> a[0].size }
   end
 
   def load_csv_to_hash csv_path
