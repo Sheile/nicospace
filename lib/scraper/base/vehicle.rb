@@ -15,7 +15,9 @@ class Vehicle
 
   def organization
     @@organizations ||= load_csv_to_hash "#{Rails.root}/config/org_via_vehicle.txt"
-    return @@organizations[@name] if @@organizations.include? @name
+    @@organizations.each do |key, value|
+      return value if @name.include? key
+    end
     return "XXXX"
   end
 
