@@ -31,4 +31,4 @@ Antares,アンタレスロケット
 Dragon,ドラゴン宇宙船
 Progress,プログレス補給船
 Chang'e,嫦娥
-HTV,HTV(こうのとり)
+HTV (\d+),HTV\1(こうのとり\1号機)
