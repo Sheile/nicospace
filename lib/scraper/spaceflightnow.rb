@@ -23,7 +23,7 @@ module Scraper
         vehicle = Vehicle.new(vehicle_name, payload)
 
         datestr = header.xpath("td[1]/font/b").text()
-        timestr = detail.text().gsub("\n", "").match("Launch.*?(time|window|times|windows):(.*)Launch.*?site:")[2]
+        timestr = detail.text().gsub("\n", "").match("Launch.*?(time|window|times|windows|period):(.*)Launch.*?site:")[2]
         start_date = FlexibleTime.parse(events.size, datestr, timestr.gsub(/\-\d{4}/, ""))
         end_date = FlexibleTime.parse(events.size, datestr, timestr.gsub(/\d{4}\-/, ""))
 
