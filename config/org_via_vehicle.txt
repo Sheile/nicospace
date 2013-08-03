@@ -26,6 +26,7 @@ Ariane,アリアンスペース社(欧州系)
 # 日本
 H-2A,JAXA
 H-2B,JAXA
+Epsilon,JAXA
 
 # 中国
 Long March,中国国家航天局
