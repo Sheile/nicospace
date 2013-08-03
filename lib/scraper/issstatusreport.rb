@@ -12,6 +12,7 @@ require 'scraper/base/iss_event.rb'
 module Scraper
   class ISSStatusReport
     def scrap
+      return []
       events = []
       repairHTML("#{Rails.root}/tmp/issstatusreport.html")
 
