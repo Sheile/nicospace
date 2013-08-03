@@ -21,6 +21,7 @@ GSLV,GSLVロケット
 PSLV,PSLVロケット
 H-2A,H-2Aロケット
 H-2B,H-2Bロケット
+Epsilon,イプシロンロケット
 KSLV 1,KSLV1ロケット
 Safir,サフィールロケット
 Pegasus XL,ペガサスXLロケット

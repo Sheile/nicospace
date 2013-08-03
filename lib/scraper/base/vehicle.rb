@@ -3,7 +3,7 @@
 require 'scraper/base/dictionary'
 
 class Vehicle
-  IMPORTANT_VEHICLE = ["Shuttle Discovery", "Shuttle Atlantis", "Shuttle Endeavour", "H-2A", "H-2B"]
+  IMPORTANT_VEHICLE = ["Shuttle Discovery", "Shuttle Atlantis", "Shuttle Endeavour", "H-2A", "H-2B", "Epsilon"]
   IMPORTANT_PAYLOAD = [/ISS [0-9]+S/]
 
   include Dictionary
